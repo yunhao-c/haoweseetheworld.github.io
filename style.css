@@ -1,35 +1,46 @@
-/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #add8e6; /* Light blue background */
+    background-color: #add8e6; /* Set all background to light blue */
 }
 
-/* Header Styles */
 header {
-    background-color: #333; /* Dark gray */
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-/* Section Styles */
-section {
+.about-section {
     padding: 20px;
-    background-color: #f0f8ff; /* Light, soft background color for sections */
-    margin-bottom: 60px; /* Adds space above the fixed footer */
+    background-color: #add8e6; /* Set section background to match */
 }
 
-/* Footer Styles */
+.about-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-pic {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+}
+
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333; /* Dark gray */
+    background-color: #333;
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow to give depth */
 }
+
 
