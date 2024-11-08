@@ -1,27 +1,35 @@
+/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: lightblue; /* Changed to light blue */
+    background-color: #add8e6; /* Light blue background */
 }
 
+/* Header Styles */
 header {
-    background-color: #333;
+    background-color: #333; /* Dark gray */
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
+/* Section Styles */
 section {
     padding: 20px;
+    background-color: #f0f8ff; /* Light, soft background color for sections */
+    margin-bottom: 60px; /* Adds space above the fixed footer */
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #333; /* Dark gray */
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow to give depth */
 }
+
